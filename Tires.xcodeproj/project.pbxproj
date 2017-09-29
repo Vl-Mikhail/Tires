@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631AD1FA1F7C0899003F0D1D /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631AD1F91F7C0899003F0D1D /* RateViewController.swift */; };
+		634D79E81F7EA563004911CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D79E71F7EA563004911CE /* MapKit.framework */; };
 		6353533E1F7815E0000A2BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353533D1F7815E0000A2BAA /* AppDelegate.swift */; };
-		635353401F7815E0000A2BAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353533F1F7815E0000A2BAA /* ViewController.swift */; };
 		635353431F7815E0000A2BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635353411F7815E0000A2BAA /* Main.storyboard */; };
 		635353451F7815E0000A2BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635353441F7815E0000A2BAA /* Assets.xcassets */; };
 		635353481F7815E0000A2BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635353461F7815E0000A2BAA /* LaunchScreen.storyboard */; };
+		635353501F7819D5000A2BAA /* TiresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353534F1F7819D5000A2BAA /* TiresTableViewController.swift */; };
+		635353521F78264B000A2BAA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635353511F78264B000A2BAA /* CustomTableViewCell.swift */; };
+		63D748B71F7BC1DE0061207E /* CustomDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D748B61F7BC1DE0061207E /* CustomDetailTableViewCell.swift */; };
+		63DBC7C21F7ABB86000664A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBC7C11F7ABB86000664A5 /* DetailViewController.swift */; };
+		63DBC7C71F7BAF23000664A5 /* Tire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBC7C61F7BAF23000664A5 /* Tire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		631AD1F91F7C0899003F0D1D /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		634D79E71F7EA563004911CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6353533A1F7815E0000A2BAA /* Tires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tires.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6353533D1F7815E0000A2BAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6353533F1F7815E0000A2BAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		635353421F7815E0000A2BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635353441F7815E0000A2BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635353471F7815E0000A2BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635353491F7815E0000A2BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6353534F1F7819D5000A2BAA /* TiresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiresTableViewController.swift; sourceTree = "<group>"; };
+		635353511F78264B000A2BAA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		63D748B61F7BC1DE0061207E /* CustomDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailTableViewCell.swift; sourceTree = "<group>"; };
+		63DBC7C11F7ABB86000664A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		63DBC7C61F7BAF23000664A5 /* Tire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634D79E81F7EA563004911CE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		634D79E61F7EA563004911CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634D79E71F7EA563004911CE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		635353311F7815E0000A2BAA = {
 			isa = PBXGroup;
 			children = (
 				6353533C1F7815E0000A2BAA /* Tires */,
 				6353533B1F7815E0000A2BAA /* Products */,
+				634D79E61F7EA563004911CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,43 @@
 		6353533C1F7815E0000A2BAA /* Tires */ = {
 			isa = PBXGroup;
 			children = (
+				63DBC7C51F7ABBDA000664A5 /* Models */,
+				63DBC7C41F7ABBAC000664A5 /* View */,
+				63DBC7C31F7ABB8E000664A5 /* Controllers */,
 				6353533D1F7815E0000A2BAA /* AppDelegate.swift */,
-				6353533F1F7815E0000A2BAA /* ViewController.swift */,
-				635353411F7815E0000A2BAA /* Main.storyboard */,
-				635353441F7815E0000A2BAA /* Assets.xcassets */,
-				635353461F7815E0000A2BAA /* LaunchScreen.storyboard */,
 				635353491F7815E0000A2BAA /* Info.plist */,
 			);
 			path = Tires;
+			sourceTree = "<group>";
+		};
+		63DBC7C31F7ABB8E000664A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63DBC7C11F7ABB86000664A5 /* DetailViewController.swift */,
+				6353534F1F7819D5000A2BAA /* TiresTableViewController.swift */,
+				631AD1F91F7C0899003F0D1D /* RateViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		63DBC7C41F7ABBAC000664A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				635353441F7815E0000A2BAA /* Assets.xcassets */,
+				635353461F7815E0000A2BAA /* LaunchScreen.storyboard */,
+				635353411F7815E0000A2BAA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63DBC7C51F7ABBDA000664A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				635353511F78264B000A2BAA /* CustomTableViewCell.swift */,
+				63D748B61F7BC1DE0061207E /* CustomDetailTableViewCell.swift */,
+				63DBC7C61F7BAF23000664A5 /* Tire.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +148,11 @@
 					635353391F7815E0000A2BAA = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635353401F7815E0000A2BAA /* ViewController.swift in Sources */,
+				635353521F78264B000A2BAA /* CustomTableViewCell.swift in Sources */,
+				63D748B71F7BC1DE0061207E /* CustomDetailTableViewCell.swift in Sources */,
+				63DBC7C71F7BAF23000664A5 /* Tire.swift in Sources */,
 				6353533E1F7815E0000A2BAA /* AppDelegate.swift in Sources */,
+				635353501F7819D5000A2BAA /* TiresTableViewController.swift in Sources */,
+				63DBC7C21F7ABB86000664A5 /* DetailViewController.swift in Sources */,
+				631AD1FA1F7C0899003F0D1D /* RateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +336,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3GWLXB3EJ;
 				INFOPLIST_FILE = Tires/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.misha.Tires;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,12 +352,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3GWLXB3EJ;
 				INFOPLIST_FILE = Tires/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.misha.Tires;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

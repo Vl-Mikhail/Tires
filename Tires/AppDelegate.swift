@@ -13,9 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    //Запускается после успешного запуска программы
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Создаем настройку навигейшен бара для всего проекта
+        UINavigationBar.appearance().tintColor = UIColor.black
+        UINavigationBar.appearance().backgroundColor = UIColor.gray
+//        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
     }
 
